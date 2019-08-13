@@ -4,7 +4,7 @@ stages:
   - publishImageConfig:
       dockerfilePath: ./Dockerfile
       buildContext: .
-      tag: x7/spiderman-${CICD_GIT_BRANCH}:${CICD_GIT_COMMIT}
+      tag: x7/spiderman
       registry: 127.0.0.1:34288
 timeout: 60
 notification: {}
